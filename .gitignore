@@ -1,31 +1,119 @@
-# Built things
-_Debug/
-Compiled/
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Muhammad Rezky Maulana</title>
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-# Lockfile
-_OpenInEditor.lock
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
 
-# User settings
-Game.agf.user
-*.crm.user
+.card{
+    background:white;
+    width:100%;
+    max-width:700px;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
 
-# Backups
-Game.agf.bak
-backup_acsprset.spr
+.avatar{
+    width:140px;
+    height:140px;
+    margin:auto;
+    border-radius:15px;
+    background:#4CAF50;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:70px;
+}
 
-# Memory dumps
-*.dmp
+h1{
+    margin-top:20px;
+    color:#2E7D32;
+}
 
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
+.age{
+    margin-top:10px;
+    color:#666;
+}
 
-# Log files
-warnings.log
+.section{
+    margin-top:25px;
+}
+
+.section h2{
+    color:#2E7D32;
+    margin-bottom:10px;
+}
+
+p{
+    line-height:1.7;
+}
+
+.minecraft-box{
+    margin-top:20px;
+    background:#e8f5e9;
+    border-left:6px solid #2E7D32;
+    padding:15px;
+    border-radius:10px;
+}
+
+footer{
+    margin-top:25px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="avatar">⛏️</div>
+
+    <h1>Muhammad Rezky Maulana</h1>
+    <p class="age">16 Tahun</p>
+
+    <div class="section">
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo! Nama saya Muhammad Rezky Maulana.
+            Saya berusia 16 tahun dan memiliki hobi bermain game.
+            Saya suka mencoba berbagai game petualangan dan survival.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Game Favorit</h2>
+        <div class="minecraft-box">
+            <strong>Minecraft</strong><br>
+            Saya suka bermain Minecraft karena bisa membangun,
+            menjelajah dunia, bertahan hidup, dan bermain bersama teman.
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Muhammad Rezky Maulana
+    </footer>
+
+</div>
+
+</body>
+</html>
